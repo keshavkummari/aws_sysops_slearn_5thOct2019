@@ -1,0 +1,96 @@
+
+Cloud Providers :
+
+Below mentioned are the top Cloud Computing Companies
+
+Kamatera
+phoenixNAP
+Amazon Web Services
+Microsoft Azure
+Google Cloud Platform
+Adobe
+VMware
+IBM Cloud
+Rackspace
+Red Hat
+Salesforce
+Oracle Cloud
+SAP
+Verizon Cloud
+Navisite
+Dropbox
+Egnyte
+
+
+
+AWS Overview :
+
+AWS is Amazon's cloud web hosting platform which offers fast, flexible, reliable and cost-effective solutions. 
+
+It offers a service in the form of building block which can be used to create and deploy any kind of application in the cloud. It is the most popular as it was the first to enter the cloud computing space.
+
+Features:
+
+Easy sign-up process
+Fast Deployments
+Allows easy management of add or remove capacity
+Access to effectively limitless capacity
+Centralized Billing and management
+Offers Hybrid Capabilities and per hour billing
+
+
+Cloud Computing Models :
+
+1. Public
+
+2. Private 
+
+3. Hybrid
+
+
+What is a public cloud?
+Public clouds are the most common way of deploying cloud computing. 
+
+The cloud resources (like servers and storage) are owned and operated by a third-party cloud service provider and delivered over the Internet.
+
+
+
+Advantages of public clouds:
+Lower costs—no need to purchase hardware or software and you pay only for the service you use.
+No maintenance—your service provider provides the maintenance.
+Near-unlimited scalability—on-demand resources are available to meet your business needs.
+High reliability—a vast network of servers ensures against failure.
+
+What is a private cloud?
+A private cloud consists of computing resources used exclusively by one business or organisation.
+
+The private cloud can be physically located at your organisation’s on-site datacenter or 
+it can be hosted by a third-party service provider.
+
+But in a private cloud, the services and infrastructure are always maintained on a private network and the hardware and software are dedicated solely to your organisation. 
+
+a private cloud can make it easier for an organisation to customise its resources to meet specific IT requirements.
+
+Private clouds are often used by government agencies, financial institutions, any other mid- to large-size 
+organisations with business-critical operations seeking enhanced control over their environment.
+
+
+Advantages of a private clouds:
+More flexibility—your organisation can customise its cloud environment to meet specific business needs.
+Improved security—resources are not shared with others, so higher levels of control and security are possible.
+High scalability—private clouds still afford the scalability and efficiency of a public cloud.
+
+
+What is a hybrid cloud?
+
+Combination of On-Premises, or Private Cloud with Public Cloud so organizations can reap the Advantages of both.
+
+
+Advantages of hybrid clouds:
+Control—your organisation can maintain a private infrastructure for sensitive assets.
+Flexibility—you can take advantage of additional resources in the public cloud when you need them.
+Cost-effectiveness—with the ability to scale to the public cloud, you pay for extra computing power only when needed.
+Ease—transitioning to the cloud does not have to be overwhelming because you can migrate gradually—phasing in workloads over time.
+
+https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
+
