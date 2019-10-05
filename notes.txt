@@ -1,0 +1,181 @@
+
+Full Name : Chennakesavulu Kummari
+
+Call  Name : Keshav Kummari
+
+Total Exp : 10
+    1. IT : 10
+    2. NON-IT  : N/A 
+
+Previous Exp : AWS - 10 yrs
+
+Previous AWS Course : 
+
+
+
+4 Hrs : 
+
+    1. 7:30pm IST 
+    2. 8:30pm IST   : 10minutes 
+    3. 9:30pm IST   : 10minutes 
+    4. 10:30pm IST  : 10minutes
+    5. 11:30pm IST  
+
+
+Laptop or Desktop : 
+    2. Monitor 
+
+
+
+#--------------------------------------------------------------------------------------#
+Laptop : MacOS 
+
+1. git --version (github.com) | To Connect Remote Linux/Unix Machines 
+
+    https://git-scm.com/
+
+    1. git commands 
+    2. git it's comes with Terminal/Tool to Connect Remote Linux/Unix Machines 
+
+2. IDE : Notepadd++, Pycharm, Sprint Tool Suit, ATOM, Visual Stuido Code (https://code.visualstudio.com/download)
+
+3. github.com : https://github.com 
+
+4. aws.amazon.com : https://aws.amazon.com 
+
+5. cloudcraft.co : https://cloudcraft.co
+
+6. aws cli : https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
+
+
+#--------------------------------------------------------------------------------------#
+
+Simplilearn LMS Walkthrough :
+
+Windows, V-10 , 64bit 
+
+
+
+
+LMS Drive : 
+
+1. LMS AWS Lab :
+
+AWS Cloud URL :
+
+IAM Users : 
+
+https://simplilearn.signin.aws.amazon.com/
+
+https://241663337465.signin.aws.amazon.com/
+
+
+Client Name : CKK.CLOUD 
+
+Migrate or Use AWS Cloud :
+
+Open Browser : https://aws.amazon.com 
+
+FullName : 
+Billing Address :
+Contact Details : MobileNumber 
+Credit or Debit Card Details : 
+Account Type : Personal or Professional 
+
+UserName : keshav.kummari@gmail.com 
+PassWord : **********
+
+
+
+
+
+
+Cloud Vendors :
+
+1. AWS
+2. AZURE
+3. GCP etc.....
+
+3 Types Cloud Models :
+
+    1. Public Cloud 
+    2. Private Cloud 
+    3. Hybrid Cloud 
+
+Service :
+
+    3 Types of Services :
+
+        1. IaaS
+        2. PaaS
+        3. SaaS 
+    
+Training & Certifcations :
+
+    1. Foundational Level    : 
+
+    2. Associate Level       : 
+
+    3. Professional Level    : 
+
+    4. Specility Level       : 
+
+
+https://www.simplilearn.com/cloud-computing/aws-sysops-certification-training
+
+
+https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsm.page-all-free-tier=2
+
+
+https://aws.amazon.com/certification/
+
+https://aws.amazon.com/training/path-operations/
+
+
+https://aws.amazon.com/certification/certified-sysops-admin-associate/
+
+https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS_Certified_SysOps_Associate-Exam_Guide_EN_1.4.pdf
+
+
+Git Commands :
+
+GIT COMMANDS
+
+git config --global user.name "keshav kummari"
+git config --global user.email "keshav.kummari@gmail.com"
+
+Create a new repository
+
+git clone git@gitlab.com:keshavkummari/7am_Python.git
+cd 7am_Python
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+
+cd existing_folder
+git init
+git remote add origin git@gitlab.com:keshavkummari/7am_Python.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@gitlab.com:keshavkummari/7am_Python.git
+git push -u origin --all
+git push -u origin --tags
+
+# ssh-keygen -t rsa -b 4096 -C "keshav.kummari@gmail.com"
+
+# eval "$(ssh-agent -s)"
+Agent pid 2153
+
+# ssh-add -k ~/.ssh/id_rsa
+Identity added: /home/ubuntu/.ssh/id_rsa (/home/ubuntu/.ssh/id_rsa)
+
+# ssh -T git@github.com

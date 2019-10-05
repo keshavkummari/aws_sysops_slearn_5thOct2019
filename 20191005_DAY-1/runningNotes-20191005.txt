@@ -1,0 +1,25 @@
+Agenda :
+
+1. Self Introduction
+
+2. Class Guidelines
+
+3. LMS Walkthrough
+
+4. Simplilearn AWS Lab Access - AWS IAM User Access 
+
+5. AWS Training & Certifications 
+
+6. AWS SysOps Course Details 
+
+7. Cloud Providers 
+
+8. Cloud Models 
+
+9. Cloud Services 
+
+10. Benefits / Advantages / Disadvanatages of Cloud Platforms 
+
+11. Download, Install and Configure required Tools & Signup to Websites
+
+12. Different AWS Account Types 
