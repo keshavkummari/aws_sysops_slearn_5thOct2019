@@ -1,0 +1,500 @@
+Jessi-Joel-Kummari@DESKTOP-0TS6ELG MINGW64 ~
+$ aws help
+
+aws
+^^^
+
+
+Description
+***********
+
+The AWS Command Line Interface is a unified tool to manage your AWS
+services.
+
+
+Synopsis
+********
+
+   aws [options] <command> <subcommand> [parameters]
+
+Use *aws command help* for information on a specific command. Use *aws
+help topics* to view a list of available help topics. The synopsis for
+each command shows its parameters and their usage. Optional parameters
+are shown in square brackets.
+
+
+Options
+*******
+
+"--debug" (boolean)
+
+Turn on debug logging.
+
+"--endpoint-url" (string)
+
+Override command's default URL with the given URL.
+
+"--no-verify-ssl" (boolean)
+
+By default, the AWS CLI uses SSL when communicating with AWS services.
+For each SSL connection, the AWS CLI will verify SSL certificates.
+This option overrides the default behavior of verifying SSL
+certificates.
+
+"--no-paginate" (boolean)
+
+Disable automatic pagination.
+
+"--output" (string)
+
+The formatting style for command output.
+
+* json
+
+* text
+
+* table
+
+"--query" (string)
+
+A JMESPath query to use in filtering the response data.
+
+"--profile" (string)
+
+Use a specific profile from your credential file.
+
+"--region" (string)
+
+The region to use. Overrides config/env settings.
+
+"--version" (string)
+
+Display the version of this tool.
+
+"--color" (string)
+
+Turn on/off color output.
+
+* on
+
+* off
+
+* auto
+
+"--no-sign-request" (boolean)
+
+Do not sign requests. Credentials will not be loaded if this argument
+is provided.
+
+"--ca-bundle" (string)
+
+The CA certificate bundle to use when verifying SSL certificates.
+Overrides config/env settings.
+
+"--cli-read-timeout" (int)
+
+The maximum socket read time in seconds. If the value is set to 0, the
+socket read will be blocking and not timeout.
+
+"--cli-connect-timeout" (int)
+
+The maximum socket connect time in seconds. If the value is set to 0,
+the socket connect will be blocking and not timeout.
+
+
+Available Services
+******************
+
+* acm
+
+* acm-pca
+
+* alexaforbusiness
+
+* amplify
+
+* apigateway
+
+* apigatewaymanagementapi
+
+* apigatewayv2
+
+* application-autoscaling
+
+* application-insights
+
+* appmesh
+
+* appstream
+
+* appsync
+
+* athena
+
+* autoscaling
+
+* autoscaling-plans
+
+* backup
+
+* batch
+
+* budgets
+
+* ce
+
+* chime
+
+* cloud9
+
+* clouddirectory
+
+* cloudformation
+
+* cloudfront
+
+* cloudhsm
+
+* cloudhsmv2
+
+* cloudsearch
+
+* cloudsearchdomain
+
+* cloudtrail
+
+* cloudwatch
+
+* codebuild
+
+* codecommit
+
+* codepipeline
+
+* codestar
+
+* cognito-identity
+
+* cognito-idp
+
+* cognito-sync
+
+* comprehend
+
+* comprehendmedical
+
+* configservice
+
+* configure
+
+* connect
+
+* cur
+
+* datapipeline
+
+* datasync
+
+* dax
+
+* deploy
+
+* devicefarm
+
+* directconnect
+
+* discovery
+
+* dlm
+
+* dms
+
+* docdb
+
+* ds
+
+* dynamodb
+
+* dynamodbstreams
+
+* ec2
+
+* ec2-instance-connect
+
+* ecr
+
+* ecs
+
+* efs
+
+* eks
+
+* elasticache
+
+* elasticbeanstalk
+
+* elastictranscoder
+
+* elb
+
+* elbv2
+
+* emr
+
+* es
+
+* events
+
+* firehose
+
+* fms
+
+* forecast
+
+* forecastquery
+
+* fsx
+
+* gamelift
+
+* glacier
+
+* globalaccelerator
+
+* glue
+
+* greengrass
+
+* groundstation
+
+* guardduty
+
+* health
+
+* help
+
+* history
+
+* iam
+
+* importexport
+
+* inspector
+
+* iot
+
+* iot-data
+
+* iot-jobs-data
+
+* iot1click-devices
+
+* iot1click-projects
+
+* iotanalytics
+
+* iotevents
+
+* iotevents-data
+
+* iotthingsgraph
+
+* kafka
+
+* kinesis
+
+* kinesis-video-archived-media
+
+* kinesis-video-media
+
+* kinesisanalytics
+
+* kinesisanalyticsv2
+
+* kinesisvideo
+
+* kms
+
+* lakeformation
+
+* lambda
+
+* lex-models
+
+* lex-runtime
+
+* license-manager
+
+* lightsail
+
+* logs
+
+* machinelearning
+
+* macie
+
+* managedblockchain
+
+* marketplace-entitlement
+
+* marketplacecommerceanalytics
+
+* mediaconnect
+
+* mediaconvert
+
+* medialive
+
+* mediapackage
+
+* mediapackage-vod
+
+* mediastore
+
+* mediastore-data
+
+* mediatailor
+
+* meteringmarketplace
+
+* mgh
+
+* mobile
+
+* mq
+
+* mturk
+
+* neptune
+
+* opsworks
+
+* opsworks-cm
+
+* organizations
+
+* personalize
+
+* personalize-events
+
+* personalize-runtime
+
+* pi
+
+* pinpoint
+
+* pinpoint-email
+
+* pinpoint-sms-voice
+
+* polly
+
+* pricing
+
+* qldb
+
+* qldb-session
+
+* quicksight
+
+* ram
+
+* rds
+
+* rds-data
+
+* redshift
+
+* rekognition
+
+* resource-groups
+
+* resourcegroupstaggingapi
+
+* robomaker
+
+* route53
+
+* route53domains
+
+* route53resolver
+
+* s3
+
+* s3api
+
+* s3control
+
+* sagemaker
+
+* sagemaker-runtime
+
+* sdb
+
+* secretsmanager
+
+* securityhub
+
+* serverlessrepo
+
+* service-quotas
+
+* servicecatalog
+
+* servicediscovery
+
+* ses
+
+* shield
+
+* signer
+
+* sms
+
+* snowball
+
+* sns
+
+* sqs
+
+* ssm
+
+* stepfunctions
+
+* storagegateway
+
+* sts
+
+* support
+
+* swf
+
+* textract
+
+* transcribe
+
+* transfer
+
+* translate
+
+* waf
+
+* waf-regional
+
+* workdocs
+
+* worklink
+
+* workmail
+
+* workmailmessageflow
+
+* workspaces
+
+* xray
+
+
+See Also
+********
+
+* aws help topics

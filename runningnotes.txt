@@ -1,0 +1,31 @@
+Agenda :
+
+1. IAM 
+
+2. EC2
+
+
+chmod 400 aws_nv_keys
+
+-r--r--r-- 1 Jessi-Joel-Kummari 197121 1696 Oct  6 21:19 aws_nv_keys.pem
+
+
+-r-------- 1 Jessi-Joel-Kummari 197121 1696 Oct  6 21:19 aws_nv_keys.pem
+
+
+    1  aws --version
+    2  aws configure
+    3  aws iam list-users
+    4  aws ec2 describe-instances
+    5  aws configure
+    6  aws iam list-users
+    7  aws ec2 describe-instances
+    8  aws configure
+    9  aws iam list-users
+   10  aws ec2 describe-instances
+
+
+aws ec2 run-instances --image-id "ami-0dbbd6f952e12feba" --count 1 --instance-type "t2.micro" --key-name "aws_nv_keys" --security-groups "sg_ec2_linux"
+
+aws ec2 describe-instance-status --instance-id "i-04fb783615a8a8e00"
+
