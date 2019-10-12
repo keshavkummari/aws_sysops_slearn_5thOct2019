@@ -1,0 +1,36 @@
+
+
+https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html
+
+
+https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+
+BMW :
+
+Website : index.html 
+
+Client - BMW and his Customers are from which location : ? India 
+
+VPC : Region - Mumbai 
+
+    - Default VPC - IPV4 - Class-B - 172.31.0.0/16
+
+    - Custom VPC : IPV4  - 
+
+    IPV4 Classes : 
+    Class-A 
+    Class-B 
+    Class-C 
+
+    Class-D 
+    Class-E 
+
+Client Name : codewithckk.com 
+
+VPC Name : codewithckk_vpc
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
+
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html
+

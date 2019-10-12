@@ -1,0 +1,23 @@
+Agenda : 
+
+1. IAM 
+2. VPC
+3. Database 
+
+
+IAM :
+
+1. User
+2. Group
+3. Policy
+4. User - Attached a Policy
+5. Group - Attached a Policy
+6. Customizing the Company Cloud URL 
+7. MFA
+8. AWS CLI 
+9. Resource Creation using GUI and CLI 
+
+1. EC2 - Bootsrap Script Execution :
+
+2. IAM - Role :
+

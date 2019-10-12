@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "Example permissions",
+        "Effect": "Allow",
+        "Principal": {
+          "AWS": "arn:aws:iam::126211257110:role/Access_S3Bucket_Data_From_EC2Instance"
+        },
+        "Action": [
+          "s3:GetBucketLocation",
+          "s3:ListBucket"
+        ],
+        "Resource": "arn:aws:s3:::dev.ckk.cloud"
+      },
+      {
+        "Effect": "Allow",
+        "Principal": {
+          "AWS": "arn:aws:iam::126211257110:role/Access_S3Bucket_Data_From_EC2Instance"
+        },
+        "Action": [
+          "s3:PutObject",
+          "s3:GetObject",
+          "s3:DeleteObject"
+        ],
+        "Resource": "arn:aws:s3:::dev.ckk.cloud/*"
+      }
+    ]
+  }
