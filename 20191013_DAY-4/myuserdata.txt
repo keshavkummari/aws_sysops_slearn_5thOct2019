@@ -1,0 +1,6 @@
+#!/bin/bash
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+echo "<html><head><title>Keshav Kummari</title></head><body bgcolor="olive"><h1>Welcome to AWS World by Keshav Kummari</h1></body></html>" >> /var/www/html/index.html 

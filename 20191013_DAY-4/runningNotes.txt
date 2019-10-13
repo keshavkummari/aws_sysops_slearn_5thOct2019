@@ -1,0 +1,29 @@
+1. VPC :
+
+1. Subnets
+2. Security Groups
+3. Network ACLs
+4. NAT Gateways
+5. Internet Gateways
+6. Route Tables
+
+
+Launch a Linux or Windows using AWS CLI :
+
+LinuxOS :
+aws ec2 run-instances --image-id "ami-02913db388613c3e1" --count 1 --instance-type t2.micro --key-name keshavkummari_aws --security-group-ids "sg-07965c7261c72c597" --subnet-id "subnet-00aa9a7d6e3e772f1" --tag-specifications 'ResourceType=instance,Tags=[{Key=ToDoAdministration,Value=BastionServer-Linux}]'
+"InstanceId": "i-03327ff0b02915a27"
+
+aws ec2 run-instances --image-id "ami-0eee945deafa2287b" --count 1 --instance-type t2.micro --key-name keshavkummari_aws --security-group-ids "sg-07965c7261c72c597" --subnet-id "subnet-00aa9a7d6e3e772f1" --tag-specifications 'ResourceType=instance,Tags=[{Key=ToDoAdministration,Value=BastionServer-Windows}]'
+
+Linux - WebServer : 
+aws ec2 run-instances --image-id "ami-02913db388613c3e1" --count 1 --instance-type t2.micro --key-name keshavkummari_aws --security-group-ids "sg-07b264c3e5a4e7006" --subnet-id "subnet-02fe4ba93ea3d1b68" --tag-specifications 'ResourceType=instance,Tags=[{Key=WebServer,Value=Apache httpd}]' --user-data file://myuserdata.txt
+
+STEP-1 : OS : ami
+STEP-2 : Instance Type : t2.micro (Motherboard, RAM, HardDisk)
+STEP-3 : KeyPair : keshavkummari_aws.pem 
+STEP-4 : SecurityGroup : sg_codewithckk_webserver 
+STEP-5 : Tags : Name : WebSite  
+STEP-6 : Storage : 8gb 
+
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Storage.html#USER_PIOPS
