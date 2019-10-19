@@ -1,0 +1,7 @@
+Agenda : 
+
+1. Database
+2. Route53
+3. CloudFront 
+4. ACM (SSL)
+5. Monitoring

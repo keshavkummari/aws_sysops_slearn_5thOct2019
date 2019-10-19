@@ -1,0 +1,6 @@
+#!/bin/bash
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+echo "<html><head><title>Mumbai</title></head><body bgcolor="#ffbf00"><h1>Mumbai - Server</h1></body></html>" >> /var/www/html/index.html 

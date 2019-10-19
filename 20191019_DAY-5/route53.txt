@@ -1,0 +1,59 @@
+
+Domain Name :
+
+codewithckk.com 
+
+Godaddy.com :
+
+Register with Godaddy.com & Buy a Domain Name for a 1 year or 2 years - 12$/per year 
+
+Route53 : 
+
+HostedZones :
+
+NS
+SOA
+A   -------> EC2 Instance 
+A   -------> ELB 
+A   -------> CloudFront
+A   -------> ElasticBeanStalk 
+
+
+UserData:
+
+FileName : myuserdata_nvirginia.txt 
+
+#!/bin/bash
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+echo "<html><head><title>North Virginia</title></head><body bgcolor="olive"><h1>North Virginia - Server </h1></body></html>" >> /var/www/html/index.html 
+
+Linux - WebServer : 
+
+Region : North Virginia
+
+aws ec2 run-instances --image-id "ami-00eb20669e0990cb4" --count 1 --instance-type t2.micro --key-name amazonKeys --security-group-ids "sg-03d94aedcf10a3b2e" --subnet-id "subnet-461be478" --tag-specifications 'ResourceType=instance,Tags=[{Key=WebServer,Value=Apache httpd}]' --user-data file://myuserdata_nvirginia.txt 
+
+Region : Mumbai 
+
+aws ec2 run-instances --image-id "ami-02913db388613c3e1" --count 1 --instance-type t2.micro --key-name keshavkummari_aws --security-group-ids "sg-0183bad93bd29fe58" --subnet-id "subnet-ab57f9e7" --tag-specifications 'ResourceType=instance,Tags=[{Key=WebServer,Value=Apache httpd}]' --user-data file://myuserdata_mumbai.txt
+
+FileName : myuserdata_mumbai.txt 
+
+#!/bin/bash
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+echo "<html><head><title>Mumbai</title></head><body bgcolor="#ffbf00"><h1>Mumbai - Server</h1></body></html>" >> /var/www/html/index.html 
+
+
+STEP-1 : OS : ami
+STEP-2 : Instance Type : t2.micro (Motherboard, RAM, HardDisk)
+STEP-3 : KeyPair : keshavkummari_aws.pem 
+STEP-4 : SecurityGroup : sg_codewithckk_webserver 
+STEP-5 : Tags : Name : WebSite  
+STEP-6 : Storage : 8gb 
+

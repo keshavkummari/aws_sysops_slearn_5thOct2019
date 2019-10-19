@@ -1,0 +1,6 @@
+#!/bin/bash
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+echo "<html><head><title>North Virginia</title></head><body bgcolor="olive"><h1>North Virginia - Server </h1></body></html>" >> /var/www/html/index.html 

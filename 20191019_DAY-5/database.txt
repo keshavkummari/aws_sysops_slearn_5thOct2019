@@ -1,0 +1,46 @@
+## Database
+
+1. RDS              : RDBMS 
+2. DynamoDB         : NoSQL Database(Key-Value and Document Data Structes)
+3. ElastiCache      : Managed In-Memory Data Store and Cache Service 
+4. Neptune          : Managed Graph Database 
+5. Amazon Redshift  : Internet Hosting Service and Data Warehouse 
+6. Amazon QLDB      : Ledger Database (Transparent, Immutable, and Cryptographically)
+7. Amazon DocumentDB: NoSQL Database service (Document Data Structures and MongoDB Workloads)
+
+Relational Database Systems:
+
+List Of The Top Database Management Software
+Given below is the list of most popular database management systems-
+
+Oracle RDBMS
+IBM DB2
+Altibase
+Microsoft SQL Server
+SAP Sybase ASE
+Teradata
+ADABAS
+MySQL
+FileMaker
+Microsoft Access
+Informix
+SQLite
+PostgresSQL
+AmazonRDS
+MongoDB
+Redis
+CouchDB
+Neo4j
+OrientDB
+Couchbase
+Toad
+phpMyAdmin
+SQL Developer
+Seqel PRO
+Robomongo
+DbVisualizer
+Hadoop HDFS
+Cloudera
+MariaDB
+Informix Dynamic Server
+4D (4th Dimension)
