@@ -1,0 +1,90 @@
+Agenda :
+
+1. CloudFront  : CDN 
+2. ACM (SSL)   : https 
+3. WebSite Hosting with S3 : Code 
+4. Elastic BeanStack
+5. CloudFormation 
+
+
+Elastic BeanStack : 
+
+WebApplication : Java 
+
+slearn.war or slearn.jar  
+
+CloudFormation :
+
+
+Hosting a Website using S3, CloudFront, ACM and Route53 :
+
+STEP-1 : Create a S3 Bucket 
+
+STEP-2 : Upload a Content i.e. index.html 
+
+STEP-3 : Bucket and Content should be private 
+
+STEP-4 : Create SSL Certificate on custom domain i.e. codewithckk.com 
+         Update CNAME with Route53 
+
+STEP-5 : Create CloudFront Distribution based on S3 Bucket, Create IAM User to Read/Write the S3 bucket content
+         Include option call http redirect https 
+         Input the SSL certificate 
+         Add Default Root Object	index.html 
+
+STEP-6 : Create A record part of Route53 and map with CloudFront DNS Name 
+
+STEP-7 : Go to browser and validate it i.e. http://codewithckk.com 
+
+         
+
+EFS :
+
+aws ec2 run-instances --image-id "ami-00eb20669e0990cb4" --count 1 --instance-type t2.micro --key-name amazonKeys --security-group-ids "sg-03d94aedcf10a3b2e" --subnet-id "subnet-461be478" --tag-specifications 'ResourceType=instance,Tags=[{Key=WebServer,Value=Apache httpd}]' --user-data file://myuserdata_nvirginia.txt 
+aws ec2 run-instances --image-id "ami-00eb20669e0990cb4" --count 1 --instance-type t2.micro --key-name amazonKeys --security-group-ids "sg-03d94aedcf10a3b2e" --subnet-id "subnet-461be478" --tag-specifications 'ResourceType=instance,Tags=[{Key=WebServer,Value=Apache httpd}]' --user-data file://myuserdata_nvirginia.txt 
+
+
+git clone https://github.com/keshavkummari/keshavkummari.git
+
+#!/bin/bash
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+yum install git -y 
+cd /opt/ 
+git clone https://github.com/keshavkummari/keshavkummari.git
+cd keshavkummari/
+mv * /var/www/html/ 
+
+
+#!/bin/bash
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+yum install git -y 
+cd /opt/ 
+git clone https://github.com/keshavkummari/keshavkummari.git
+cd keshavkummari/
+mv * /var/www/html/ 
+
+
+
+#!/bin/bash
+yum install wget* curl* vim* unzip* -y
+yum update -y
+yum install http* --skip-broken -y
+mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-af70c14d.efs.us-east-1.amazonaws.com:/ /var/www/html/
+cd /opt/
+wget https://www.free-css.com/assets/files/free-css-templates/download/page231/bizexpress-v1.0.1.zip
+unzip *.zip
+cd Biz*
+mv * /var/www/html/
+service httpd start
+
+
+
+aws ec2 run-instances --image-id "ami-00eb20669e0990cb4" --count 2 --instance-type t2.micro --key-name amazonKeys --security-group-ids "sg-03d94aedcf10a3b2e" --subnet-id "subnet-461be478" --tag-specifications 'ResourceType=instance,Tags=[{Key=WebServer,Value=Apache httpd}]' --user-data file://efs_userdata.txt 
+
+

@@ -1,0 +1,18 @@
+STEP-1 : Launch a Linux Instance 
+
+
+#!/bin/bash
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+cd /var/www/html/
+aws s3 cp s3://bucket/index.php index.php
+
+STEP-2 : Classic ELB 
+
+STEP-3 : Attache EC2 instance part of Classic ELB 
+
+STEP-4 : Go to browser and validate it 
+
+
