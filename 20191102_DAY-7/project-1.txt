@@ -1,0 +1,12 @@
+Launch an RDS Instance in Multi AZ
+
+DESCRIPTION
+
+You need your database to be restored at any point of time
+
+Goals of the Project
+
+Launch an RDS instance with multi AZ option in a private and public subnet. 
+Attach a custom parameter group to the RDS instance.  
+Take a manual snapshot backup and restore the snapshot to a new RDS instance.
+

@@ -1,0 +1,11 @@
+AWS SysOps Administrator- Associate Project – Recreation Domain: Recreation
+
+DESCRIPTION
+
+Your development team has asked you to create a small Linux instance and deploy a PHP application to it. Prerequisites to run the application are apache (httpd) + mod_php. Application is uploaded to an S3 bucket. A few days later, after tests are successfully performed, the development team asks you to deploy the application to a secure, load balanced environment.
+
+php --version 
+
+apt install php* -y 
+
+index.php 

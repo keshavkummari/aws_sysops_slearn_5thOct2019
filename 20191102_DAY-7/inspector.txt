@@ -1,0 +1,32 @@
+
+AWS Inspector : Automated Security Assessment Service 
+
+Improve the security and compliance of applications deploy on AWS Cloud 
+
+Benefits :
+
+1. Identify application security issues 
+
+2. Integrate Security into DevOps 
+
+API Driven Service :
+    1. Network Configuration 
+
+DevOps CI/CD Pipeline : 
+1. Jenkins    : CodeBuild
+2. GitHub     : CodeCommit 
+3. Nagios     : CloudWatch 
+4. Ansible    : CodeDeploy
+5. Orachestration : CodePipeline 
+
+3. Increase Development Agility 
+
+4. Leverage AWS Security Expertise
+
+5. Steamline Security compliance
+
+6. Enforce Security Standards 
+
+
+https://aws.amazon.com/inspector/pricing/
+

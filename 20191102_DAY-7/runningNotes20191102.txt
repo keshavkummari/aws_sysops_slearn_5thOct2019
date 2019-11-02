@@ -1,0 +1,37 @@
+Agenda :
+
+1. AWS Config
+2. AWS Cost Explorer
+3. Cost Optimization
+4. Health Dashboards
+5. AWS Billing and Organizations
+6. CloudTrail
+7. CloudWatch 
+8. Messaging Services 
+9. AWS OpsWorks 
+10. AWS Inspector
+11. AWS Systems Manager 
+12. Exam Point of Preparation 
+13. LMS - Test & Projects 
+14. AWS Total Cost of Ownership (TCO) Calculator
+15. AWS Pricing Calculator
+16. AWS SIMPLE MONTHLY CALCULATOR
+
+
+
+1. AWS Cost Explorer (https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
+2. Cost Optimization (https://aws.amazon.com/pricing/cost-optimization/)
+3. AWS Inspector (https://aws.amazon.com/inspector/)
+4. AWS Total Cost of Ownership (TCO) Calculator (https://aws.amazon.com/tco-calculator/)
+5. AWS Pricing Calculator (https://calculator.aws/#/)
+6. AWS SIMPLE MONTHLY CALCULATOR (https://calculator.s3.amazonaws.com/index.html)
+7. AWS Config (https://aws.amazon.com/config/)
+8. Health Dashboards (https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/)
+9. AWS Billing and Organizations (https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html)
+10. CloudTrail (https://aws.amazon.com/cloudtrail/)
+11. CloudWatch (https://aws.amazon.com/cloudwatch/)
+12. Exam Point of Preparation 
+13. LMS - Test & Projects 
+14. Messaging Services 
+15. AWS Systems Manager (https://aws.amazon.com/systems-manager/)
+16. AWS OpsWorks (https://aws.amazon.com/opsworks/)
